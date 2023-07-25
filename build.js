@@ -32,7 +32,7 @@ if (IS_DEV) {
   await fs.copyFile(manifestPath, './dist/manifest.json')
   await fs.writeFile('./test/vault/.typora/plugins.json', JSON.stringify({ [manifest.id]: true }))
 
-  await fs.rm(path.join(process.env.USERPROFILE, '.typora/plugins/.lock/win-test'))
+  await fs.rm(path.join(process.env.USERPROFILE, '.typora/community-plugins/.lock/win-test'))
     .catch(() => { })
 
   child_process.exec('Typora ./test/vault/doc.md')
