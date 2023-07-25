@@ -20,7 +20,7 @@
     "@types/lodash": "~4.14.195",
     "@types/node": "16.18.0",
     "@types/yauzl": "2.10.0",
-    "@typora-community-plugin/core": "2.0.0-beta.2",
+    "@typora-community-plugin/core": "^2.0.0-beta.2",
     "archiver": "^5.3.1",
     "esbuild": "^0.18.16",
     "esbuild-plugin-typora": "npm:@typora-community-plugin/esbuild-plugin-typora@^1.0.2",
