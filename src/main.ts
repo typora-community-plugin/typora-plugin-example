@@ -1,3 +1,4 @@
+import './style.scss'
 import { Plugin } from '@typora-community-plugin/core'
 
 
