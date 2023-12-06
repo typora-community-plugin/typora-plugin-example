@@ -25,7 +25,6 @@ const overrided = {
 
 await fs.rm('./dist', { recursive: true, force: true })
 await fs.mkdir('./dist')
-await fs.copyFile('./src/manifest.json', './dist/manifest.json')
 
 export default defineConfig({
   input: 'src/main.ts',
@@ -46,13 +45,6 @@ export default defineConfig({
         ...compilerOptions,
         ...overrided,
       },
-    }),
-    babel({
-      babelHelpers: 'bundled',
-      presets: [["@babel/preset-env", { "useBuiltIns": "entry", "corejs": 3 }]],
-      exclude: [
-        /\bcore-js\b/,
-      ],
     }),
     scss({
       fileName: 'style.css',
