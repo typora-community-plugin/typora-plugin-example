@@ -46,6 +46,13 @@ export default defineConfig({
         ...overrided,
       },
     }),
+    babel({
+      babelHelpers: 'bundled',
+      presets: [["@babel/preset-env", { "useBuiltIns": "entry", "corejs": 3 }]],
+      exclude: [
+        /\bcore-js\b/,
+      ],
+    }),
     scss({
       fileName: 'style.css',
       processor: (css, map) => ({ css: css.replace(/\n+\s*/g, '') }),
