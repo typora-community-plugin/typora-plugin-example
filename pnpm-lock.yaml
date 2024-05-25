@@ -13,10 +13,10 @@ specifiers:
   '@types/jquery': 3.3.1
   '@types/node': 16.18.0
   '@types/typora': npm:@typora-community-plugin/typora-types@^1.0.5
-  '@typora-community-plugin/core': ^2.0.0-beta.37
+  '@typora-community-plugin/core': ^2.0.0-beta.38
   archiver: ^5.3.2
   esbuild: ^0.19.2
-  esbuild-plugin-typora: npm:@typora-community-plugin/esbuild-plugin-typora@^1.0.9
+  esbuild-plugin-typora: npm:@typora-community-plugin/esbuild-plugin-typora@^1.0.11
   esbuild-sass-plugin: ^2.12.0
   rollup: ^4.1.4
   rollup-plugin-scss: ^4.0.0
@@ -38,10 +38,10 @@ devDependencies:
   '@types/jquery': 3.3.1
   '@types/node': 16.18.0
   '@types/typora': /@typora-community-plugin/typora-types/1.0.5
-  '@typora-community-plugin/core': 2.0.0-beta.37
+  '@typora-community-plugin/core': 2.0.0-beta.38
   archiver: 5.3.2
   esbuild: 0.19.2
-  esbuild-plugin-typora: /@typora-community-plugin/esbuild-plugin-typora/1.0.9
+  esbuild-plugin-typora: /@typora-community-plugin/esbuild-plugin-typora/1.0.11
   esbuild-sass-plugin: 2.16.0_esbuild@0.19.2
   rollup: 4.2.0
   rollup-plugin-scss: 4.0.0
@@ -1709,14 +1709,14 @@ packages:
     resolution: {integrity: sha512-60BCwRFOZCQhDncwQdxxeOEEkbc5dIMccYLwbxsS4TUNeVECQ/pBJ0j09mrHOl/JJvpRPGwO9SvE4nR2Nb/a4Q==}
     dev: true
 
-  /@typora-community-plugin/core/2.0.0-beta.37:
-    resolution: {integrity: sha512-3LYxadYDIufFCCB57FPpFZ7qcigjeXTwUWUqMrMw8SZw/SV0+j7DwfJR9bh74icQUlBPkDWfGII+nLqkDvyLSQ==}
+  /@typora-community-plugin/core/2.0.0-beta.38:
+    resolution: {integrity: sha512-Jm0Pm1b9Mt2jHofN78bf1fZxGqtNls4JPUoUsX/fGj0VAbFvJW/kkhijH8itiSnX/5rsr36L811IEkzTwcBooQ==}
     dependencies:
       '@plylrnsdy/decorate.js': 1.0.1
     dev: true
 
-  /@typora-community-plugin/esbuild-plugin-typora/1.0.9:
-    resolution: {integrity: sha512-+G6vWIgIF2NLAvZeQ12uNNDm05Skaa1ZvHiv/xa7g3bvOMOQc3B6AEXkZigTjFP4DVbETUKw8/KYuLOh+KZpog==}
+  /@typora-community-plugin/esbuild-plugin-typora/1.0.11:
+    resolution: {integrity: sha512-ObHzGmC8hsa9Pgzjab76xI4hqkHhaJaJa44gsD3MEE9+Fxa7xPgA//+AwKoXNBImkigEALh9QVapcNGgQU0c9A==}
     dev: true
 
   /@typora-community-plugin/rollup-plugin-typora/1.0.3:
