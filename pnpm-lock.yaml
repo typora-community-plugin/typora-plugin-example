@@ -12,15 +12,15 @@ specifiers:
   '@rollup/plugin-virtual': ^3.0.2
   '@types/jquery': 3.3.1
   '@types/node': 16.18.0
-  '@types/typora': npm:@typora-community-plugin/typora-types@^1.0.6
-  '@typora-community-plugin/core': ^2.0.0
+  '@types/typora': npm:@typora-community-plugin/typora-types@^1.0.9
+  '@typora-community-plugin/core': ^2.2.3
   archiver: ^5.3.2
   esbuild: ^0.19.2
-  esbuild-plugin-typora: npm:@typora-community-plugin/esbuild-plugin-typora@^1.0.11
+  esbuild-plugin-typora: npm:@typora-community-plugin/esbuild-plugin-typora@^1.0.12
   esbuild-sass-plugin: ^2.12.0
   rollup: ^4.1.4
   rollup-plugin-scss: ^4.0.0
-  rollup-plugin-typora: npm:@typora-community-plugin/rollup-plugin-typora@^1.0.3
+  rollup-plugin-typora: npm:@typora-community-plugin/rollup-plugin-typora@^1.0.4
   sass: ^1.69.5
   tslib: ^2.6.2
   typescript: ^5.1.6
@@ -37,15 +37,15 @@ devDependencies:
   '@rollup/plugin-virtual': 3.0.2_rollup@4.2.0
   '@types/jquery': 3.3.1
   '@types/node': 16.18.0
-  '@types/typora': /@typora-community-plugin/typora-types/1.0.6
-  '@typora-community-plugin/core': 2.0.0
+  '@types/typora': /@typora-community-plugin/typora-types/1.0.9
+  '@typora-community-plugin/core': 2.2.3
   archiver: 5.3.2
   esbuild: 0.19.2
-  esbuild-plugin-typora: /@typora-community-plugin/esbuild-plugin-typora/1.0.11
+  esbuild-plugin-typora: /@typora-community-plugin/esbuild-plugin-typora/1.0.12
   esbuild-sass-plugin: 2.16.0_esbuild@0.19.2
   rollup: 4.2.0
   rollup-plugin-scss: 4.0.0
-  rollup-plugin-typora: /@typora-community-plugin/rollup-plugin-typora/1.0.3
+  rollup-plugin-typora: /@typora-community-plugin/rollup-plugin-typora/1.0.4
   sass: 1.69.5
   tslib: 2.6.2
   typescript: 5.2.2
@@ -1641,6 +1641,7 @@ packages:
     resolution: {integrity: sha512-bNsTYQBgp4H7w6cT7FZhesxpcUPahsSIy4NgdZjH1ZwEoZHxi4XKglj+CsSEkhsKi+x6toVvMylhjRKhEMYfnA==}
     cpu: [arm64]
     os: [linux]
+    libc: [glibc]
     requiresBuild: true
     dev: true
     optional: true
@@ -1649,6 +1650,7 @@ packages:
     resolution: {integrity: sha512-Jp1NxBJpGLuxRU2ihrQk4IZ+ia5nffobG6sOFUPW5PMYkF0kQtxEbeDuCa69Xif211vUOcxlOnf5IOEIpTEySA==}
     cpu: [arm64]
     os: [linux]
+    libc: [musl]
     requiresBuild: true
     dev: true
     optional: true
@@ -1657,6 +1659,7 @@ packages:
     resolution: {integrity: sha512-3p3iRtQmv2aXw+vtKNyZMLOQ+LSRsqArXjKAh2Oj9cqwfIRe7OXvdkOzWfZOIp1F/x5KJzVAxGxnniF4cMbnsQ==}
     cpu: [x64]
     os: [linux]
+    libc: [glibc]
     requiresBuild: true
     dev: true
     optional: true
@@ -1665,6 +1668,7 @@ packages:
     resolution: {integrity: sha512-atih7IF/reUZe4LBLC5Izd44hth2tfDIG8LaPp4/cQXdHh9jabcZEvIeRPrpDq0i/Uu487Qu5gl5KwyAnWajnw==}
     cpu: [x64]
     os: [linux]
+    libc: [musl]
     requiresBuild: true
     dev: true
     optional: true
@@ -1709,22 +1713,22 @@ packages:
     resolution: {integrity: sha512-60BCwRFOZCQhDncwQdxxeOEEkbc5dIMccYLwbxsS4TUNeVECQ/pBJ0j09mrHOl/JJvpRPGwO9SvE4nR2Nb/a4Q==}
     dev: true
 
-  /@typora-community-plugin/core/2.0.0:
-    resolution: {integrity: sha512-AqRIBz3JCcU8zFUBw2uhM2sm8fjjSCm20WdZLv6UcCqFkAtRxJgSDvceerB7WGVWoqYc2URJoZ7U8Se9srSiNQ==}
+  /@typora-community-plugin/core/2.2.3:
+    resolution: {integrity: sha512-L+FebCMeOwXByg0GLTDP+uVkcAlhUMEDIIn9HdNt5xhtdLK+kMo8SrMjJnqXweTujVzlZh5g/SqhxWt2hDizCw==}
     dependencies:
       '@plylrnsdy/decorate.js': 1.0.1
     dev: true
 
-  /@typora-community-plugin/esbuild-plugin-typora/1.0.11:
-    resolution: {integrity: sha512-ObHzGmC8hsa9Pgzjab76xI4hqkHhaJaJa44gsD3MEE9+Fxa7xPgA//+AwKoXNBImkigEALh9QVapcNGgQU0c9A==}
+  /@typora-community-plugin/esbuild-plugin-typora/1.0.12:
+    resolution: {integrity: sha512-iOEM8e0Y7/83dqVHm2HX9XglL0BD0t4NTbH4PKtea7ohrOxI/frkWb4nHW4iMoxp5mVBdCf5QUpcm3H6DeIfdQ==}
     dev: true
 
-  /@typora-community-plugin/rollup-plugin-typora/1.0.3:
-    resolution: {integrity: sha512-rcleaQuT1nXy5DfmNzMNdOPqrsJcrBGGFI/R8L5mRC6hWQWq5/fQlZQconSBKSSC3kRiwmLSTkFr1ihoqek7eA==}
+  /@typora-community-plugin/rollup-plugin-typora/1.0.4:
+    resolution: {integrity: sha512-nCZDx1kWgXNxM2lcsC8EdE59DIZxJvIlQa7XZfv27p2JAJbyDCPgOJn3S/yo4ZZ0HVXHF3q6lYD8ocFcimHSew==}
     dev: true
 
-  /@typora-community-plugin/typora-types/1.0.6:
-    resolution: {integrity: sha512-AqAcC2JmIzq8tjdcbWGIUWC6L+jnhEMW4ff0mIDGx6BWj5K6hgzBRX97lyOuHE1V77Oyc/WNAybfHfmh2CCLsQ==}
+  /@typora-community-plugin/typora-types/1.0.9:
+    resolution: {integrity: sha512-TusP/Femd6RloG5qH+cIiQYJc6ZX4VgSQ123ZYtIPf2yb4K8PLyObHqjIRI01dbi0l9NjZAAwyXnE9NIzlDM6w==}
     dev: true
 
   /acorn/8.11.2:
