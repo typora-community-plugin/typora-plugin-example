@@ -12,8 +12,8 @@ specifiers:
   '@rollup/plugin-virtual': ^3.0.2
   '@types/jquery': 3.3.1
   '@types/node': 16.18.0
-  '@types/typora': npm:@typora-community-plugin/typora-types@^1.0.9
-  '@typora-community-plugin/core': ^2.2.3
+  '@types/typora': npm:@typora-community-plugin/typora-types@^1.0.11
+  '@typora-community-plugin/core': ^2.3.22
   archiver: ^5.3.2
   esbuild: ^0.19.2
   esbuild-plugin-typora: npm:@typora-community-plugin/esbuild-plugin-typora@^1.0.12
@@ -37,8 +37,8 @@ devDependencies:
   '@rollup/plugin-virtual': 3.0.2_rollup@4.2.0
   '@types/jquery': 3.3.1
   '@types/node': 16.18.0
-  '@types/typora': /@typora-community-plugin/typora-types/1.0.9
-  '@typora-community-plugin/core': 2.2.3
+  '@types/typora': /@typora-community-plugin/typora-types/1.0.11
+  '@typora-community-plugin/core': 2.3.22
   archiver: 5.3.2
   esbuild: 0.19.2
   esbuild-plugin-typora: /@typora-community-plugin/esbuild-plugin-typora/1.0.12
@@ -1713,8 +1713,8 @@ packages:
     resolution: {integrity: sha512-60BCwRFOZCQhDncwQdxxeOEEkbc5dIMccYLwbxsS4TUNeVECQ/pBJ0j09mrHOl/JJvpRPGwO9SvE4nR2Nb/a4Q==}
     dev: true
 
-  /@typora-community-plugin/core/2.2.3:
-    resolution: {integrity: sha512-L+FebCMeOwXByg0GLTDP+uVkcAlhUMEDIIn9HdNt5xhtdLK+kMo8SrMjJnqXweTujVzlZh5g/SqhxWt2hDizCw==}
+  /@typora-community-plugin/core/2.3.22:
+    resolution: {integrity: sha512-wnDQUPCdhVsK9oV7CImj9taADrC/IhAlc+xntnHRrSDhqtnHRXs5VIu9nSd+rp6U3IQx+wyFC4QKCncIq9MMqQ==}
     dependencies:
       '@plylrnsdy/decorate.js': 1.0.1
     dev: true
@@ -1727,8 +1727,8 @@ packages:
     resolution: {integrity: sha512-nCZDx1kWgXNxM2lcsC8EdE59DIZxJvIlQa7XZfv27p2JAJbyDCPgOJn3S/yo4ZZ0HVXHF3q6lYD8ocFcimHSew==}
     dev: true
 
-  /@typora-community-plugin/typora-types/1.0.9:
-    resolution: {integrity: sha512-TusP/Femd6RloG5qH+cIiQYJc6ZX4VgSQ123ZYtIPf2yb4K8PLyObHqjIRI01dbi0l9NjZAAwyXnE9NIzlDM6w==}
+  /@typora-community-plugin/typora-types/1.0.11:
+    resolution: {integrity: sha512-1VXmHGRQB7ix6BU6XIB2t7mShTvWWvswj5SGvoe8iFc630RRq/c1Y8k8k4/FCQiefSeohYxGYtwKKQ1hjt2B4A==}
     dev: true
 
   /acorn/8.11.2:
