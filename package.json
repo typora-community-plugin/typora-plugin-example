@@ -8,7 +8,7 @@
   "scripts": {
     "build:dev": "node build.js",
     "build": "rollup -c rollup.config.js",
-    "pack": "pnpm run build && node pack.js"
+    "pack": "yarn build && node pack.js"
   },
   "keywords": [],
   "author": "",
