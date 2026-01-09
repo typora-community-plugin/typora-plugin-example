@@ -8,7 +8,7 @@ import scss from 'rollup-plugin-scss'
 import terser from '@rollup/plugin-terser'
 import typescript from '@rollup/plugin-typescript'
 import virtual from '@rollup/plugin-virtual'
-import { virtualModules } from 'rollup-plugin-typora'
+import { virtualModules, typoraPlugin } from 'rollup-plugin-typora'
 
 
 const { compilerOptions } = JSON.parse(await fs.readFile('./tsconfig.json', 'utf8'))
@@ -38,6 +38,7 @@ export default defineConfig({
       'process.env.IS_DEV': 'false',
     }),
     virtual(virtualModules),
+    typoraPlugin(),
     nodeResolve(),
     commonjs(),
     typescript({
