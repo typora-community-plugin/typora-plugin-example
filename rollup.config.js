@@ -26,6 +26,13 @@ const overrided = {
 await fs.rm('./dist', { recursive: true, force: true })
 await fs.mkdir('./dist')
 
+try {
+  await fs.access('./src/locales')
+  await fs.cp('./src/locales', './dist/locales', { recursive: true })
+}
+catch (e) {
+}
+
 export default defineConfig({
   input: 'src/main.ts',
   output: {

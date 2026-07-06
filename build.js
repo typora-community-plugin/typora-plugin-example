@@ -11,6 +11,13 @@ const IS_DEV = !IS_PROD
 
 await fs.rm('./dist', { recursive: true, force: true })
 
+try {
+  await fs.access('./src/locales')
+  await fs.cp('./src/locales', './dist/locales', { recursive: true })
+}
+catch (e) {
+}
+
 await esbuild.build({
   entryPoints: ['src/main.ts'],
   outdir: 'dist',
