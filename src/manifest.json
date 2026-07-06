@@ -1,12 +1,12 @@
 {
-  "id": "typora-community-plugin.example",
+  "id": "your-github-username.example",
   "name": "Example",
   "description": "Example plugin for typora.",
-  "author": "plylrnsdy",
-  "authorUrl": "https://github.com/plylrnsdy",
-  "repo": "typora-community-plugin/typora-plugin-example",
+  "author": "author name",
+  "authorUrl": "https://github.com/your-github-username",
+  "repo": "your-github-username/typora-plugin-example",
   "version": "1.0.0",
   "minAppVersion": "1.5.0",
-  "minCoreVersion": "2.5.19",
+  "minCoreVersion": "2.7.7",
   "platforms": ["win32", "linux", "darwin"]
 }

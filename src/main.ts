@@ -1,3 +1,4 @@
+// Remove the line below if you don't need custom styles
 import './style.scss'
 import { Plugin } from '@typora-community-plugin/core'
 
