@@ -42,11 +42,11 @@ importers:
         specifier: 16.18.0
         version: 16.18.0
       '@types/typora':
-        specifier: npm:@typora-community-plugin/typora-types@^1.0.16
-        version: '@typora-community-plugin/typora-types@1.0.16'
+        specifier: npm:@typora-community-plugin/typora-types@^1.0.18
+        version: '@typora-community-plugin/typora-types@1.0.18'
       '@typora-community-plugin/core':
-        specifier: ^2.7.7
-        version: 2.9.6
+        specifier: ^2.10.84
+        version: 2.10.84
       archiver:
         specifier: ^5.3.2
         version: 5.3.2
@@ -1018,8 +1018,8 @@ packages:
   '@types/resolve@1.20.2':
     resolution: {integrity: sha512-60BCwRFOZCQhDncwQdxxeOEEkbc5dIMccYLwbxsS4TUNeVECQ/pBJ0j09mrHOl/JJvpRPGwO9SvE4nR2Nb/a4Q==}
 
-  '@typora-community-plugin/core@2.9.6':
-    resolution: {integrity: sha512-i062yebc7KAIXIy+s5UTMeMLVSU9Zr1WO+PsmJrKR278ZpTBZAWVlFQMMxY7kLey2UtLUJa6I4AsXrlreeUsrw==}
+  '@typora-community-plugin/core@2.10.84':
+    resolution: {integrity: sha512-PU2C8czDmKkucI5LbOFDv1PAOI5m5r+7k7JBNWRuGXSfj7OCP0obSVg+8nZxeZ8DnQO3BPSYz16FniPFOusGqA==}
 
   '@typora-community-plugin/esbuild-plugin-typora@1.0.12':
     resolution: {integrity: sha512-iOEM8e0Y7/83dqVHm2HX9XglL0BD0t4NTbH4PKtea7ohrOxI/frkWb4nHW4iMoxp5mVBdCf5QUpcm3H6DeIfdQ==}
@@ -1027,8 +1027,8 @@ packages:
   '@typora-community-plugin/rollup-plugin-typora@1.1.0':
     resolution: {integrity: sha512-t/bg1VjFNiq1Qv2XERpyD1nROP9nbMuSCosoB9RWa5sPG6GxD6L42A3mUzkQcmkcCbPy9foC4jscWBJO2lo4ow==}
 
-  '@typora-community-plugin/typora-types@1.0.16':
-    resolution: {integrity: sha512-7ICYULlXo9hunI5yZHpUkK+DJ6B17QZLMi52Jbfo6N26uPbtIAiQL40KvVXxtXh8xAMPeLiAE1ZbMbwsy0TR1g==}
+  '@typora-community-plugin/typora-types@1.0.18':
+    resolution: {integrity: sha512-kyFnSXfYc+9dMKUQlOrOB+BdX1WmuSXDAMlpNf9NUS7qqR5eGnooh/5wO/wOJVSjM5B6m/mG4WLs5eubjdVP1w==}
 
   acorn@8.14.1:
     resolution: {integrity: sha512-OvQ/2pUDKmgfCg++xsTX1wGxfTaszcHVcTctW4UJB4hibJx2HXxxO5UmVgyjMa+ZDsiaf5wWLXYpRWMmBI0QHg==}
@@ -2440,7 +2440,7 @@ snapshots:
 
   '@types/resolve@1.20.2': {}
 
-  '@typora-community-plugin/core@2.9.6':
+  '@typora-community-plugin/core@2.10.84':
     dependencies:
       '@plylrnsdy/decorate.js': 1.0.4
 
@@ -2448,7 +2448,7 @@ snapshots:
 
   '@typora-community-plugin/rollup-plugin-typora@1.1.0': {}
 
-  '@typora-community-plugin/typora-types@1.0.16': {}
+  '@typora-community-plugin/typora-types@1.0.18': {}
 
   acorn@8.14.1: {}
 
